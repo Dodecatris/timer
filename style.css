@@ -1,0 +1,387 @@
+@font-face {
+ font-family: 'norwester';
+ src: url('fonts/norwester.eot');
+ src: url('fonts/norwester.eot') format('embedded-opentype'), url('fonts/norwester.woff2') format('woff2'), url('fonts/norwester.woff') format('woff'), url('fonts/norwester.ttf') format('truetype'), url('fonts/norwester.svg#norwester') format('svg');
+}
+/* Reset.css */
+
+.div, img, a, ul, li, span, h1, h2, h3, h4, h5 {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	list-style:none;
+	border:0;
+	outline:none!important;
+}
+
+.designby a {
+    color: orange;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.designby {
+
+color: #eee !important;
+    letter-spacing: 3px;
+    position: absolute;
+    right: 11px;
+
+}
+
+a:hover, input[type=button]:hover {
+opacity:0.6;
+
+}
+
+input[type=button] {
+
+transition:0.6s;
+
+}
+
+.clear {
+	clear:both;
+}
+a {
+	text-decoration:none;
+	transition:0.6s;
+}
+a:hover, a:focus {
+	text-decoration:none;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+img {
+	max-width:100%;
+	height:auto;
+}
+body {
+	background:url(images/bg.jpg) no-repeat center top;
+	font-family: "brandon-grotesque", sans-serif;
+	line-height:1.4;
+}
+p {
+	padding:0;
+	margin:0 0 20px 0;
+}
+/* Normal Styling */
+
+.container-fluid {
+	padding:0 15px;
+}
+.row-fluid {
+	width: 100%;
+ *zoom: 1;
+}
+.row-fluid:before, .row-fluid:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+.row-fluid:after {
+	clear: both;
+}
+.main-frame {
+	padding:0;
+	margin:0;
+	display:block;
+	overflow:hidden;
+}
+.timer-container {
+	max-width:1150px;
+	padding:0;
+	margin:47px auto;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:15px;
+	font-weight:300;
+}
+
+#msg {
+margin-top:10px;
+color:#fff;
+letter-spacing:1px;
+}
+.time-wrap {
+	display:inline-block;
+	padding:0;
+	margin:0;
+	vertical-align:middle;
+}
+.time-count {
+	display:block;
+	padding:0;
+	margin:0 0 60px 0;
+	text-align:center;
+}
+.time-count span {
+	display:inline-block;
+	padding:0;
+	margin:0;
+	vertical-align:middle;
+	color:#FFFFFF;
+	font-size:200px;
+	font-weight:100;
+	line-height:1;
+}
+.time-schedule {
+	display:block;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+.time-schedule ul {
+	display:table;
+	padding:0;
+	margin:0 auto;
+}
+.time-schedule ul li {
+	display:table-cell;
+	padding:0 26px;
+	margin:0;
+	vertical-align:middle;
+}
+.time-schedule label {
+	display:block;
+	padding:0;
+	margin:0;
+	font-weight:100;
+	font-size:21px;
+	color:#FFFFFF;
+	letter-spacing:2px;
+}
+.time-schedule span {
+	display:inline-block;
+	padding:0;
+	margin:8px 0;
+	text-align:center;
+	line-height:66px;
+	font-size:28px;
+	font-weight:100;
+}
+.time-schedule span input[type="number"] {
+	border:0;
+	width:69px;
+	height:66px;
+	background:#465460;
+	border-radius:8px;
+	color:#FFFFFF;
+	text-align:center;
+	font-family: "brandon-grotesque", sans-serif;
+	font-size:28px;
+	font-weight:100;
+}
+.start-btn {
+	display:table;
+	height:100%;
+	width:100%;
+	color:#FFFFFF;
+	font-size:21px;
+	color:#000000;
+	font-weight:100;
+}
+.start-btn input[type="button"], .ui-dialog .ui-dialog-content input[type="button"] {
+	letter-spacing: 4px;
+	padding: 48px 5px;
+	border:0;
+	background:none;
+	font-family: "brandon-grotesque", sans-serif;
+	font-size:21px;
+	color:#000000;
+	font-weight:100;
+	width:170px;
+	text-align:center;
+	cursor:pointer;
+	clear:both;
+	display:inline-block;
+	margin: 0 5px;
+	background:#ffcc66;
+
+}
+.start-btn a {
+	display: table-cell;
+	height: 100%;
+	letter-spacing: 4px;
+	padding: 48px 35px;
+	width: 100%;
+}
+.sidebar-add {
+	max-width:370px;
+	display:inline-block;
+	padding:0;
+	margin:0 0 0 170px;
+	vertical-align:top;
+}
+.add-head {
+	display:block;
+	padding:0;
+	margin:0;
+}
+.sponser {
+	display:block;
+	padding:0;
+	margin:0 0 5px 0;
+	font-size:13px;
+	font-family: 'norwester';
+	letter-spacing:3px;
+}
+.add-head i {
+	display:block;
+}
+.add-img {
+	display:block;
+	padding:0;
+	margin:0;
+}
+.add-img img {
+	display:block;
+}
+.add-head p {
+	letter-spacing:3px;
+	margin-bottom:22px;
+}
+.shop-btn {
+	display:block;
+	padding:0;
+	margin:0;
+	height:85px;
+	line-height:85px;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:300;
+	background:#61b8e4;
+}
+
+.error_message {
+font-size:15px;
+color:#FF0000;
+text-align:center;
+padding:0px 0;
+}
+.ui-dialog .ui-dialog-content input[type="button"] {
+
+background:#FFCC66;
+ color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 8px 15px;
+    width: 100%;
+}
+
+.ui-widget {
+	font-family: "brandon-grotesque", sans-serif;
+
+}
+ /*--------------------------------------   MEDIA STYLES  -------------------------**/
+/* Large desktop */
+@media (max-width: 1460px) {
+ .time-count span {
+font-size:180px;
+}
+ .time-schedule label, .start-btn {
+ font-size:18px;
+}
+ .time-schedule span, .time-schedule span input[type="number"] {
+ font-size:26px;
+}
+ .shop-btn {
+height:60px;
+line-height:60px;
+font-size:16px;
+}
+ .sidebar-add {
+max-width:330px;
+}
+}
+ @media (max-width: 1200px) {
+ .sidebar-add {
+ margin: 0 0 0 30px;
+ max-width: 280px;
+}
+.add-head p {
+letter-spacing:1px;
+}
+ .time-count span {
+ font-size: 156px;
+}
+ .time-count {
+margin-bottom:40px;
+}
+ .time-schedule label, .start-btn {
+ font-size: 16px;
+ font-weight:300;
+}
+ .time-schedule span, .time-schedule span input[type="number"] {
+ font-size: 23px;
+ font-weight:300;
+}
+.start-btn a, .start-btn input[type="button"] {
+ letter-spacing: 3px;
+ padding: 45px 5px;
+ width:150px;
+}
+}
+ @media (max-width: 979px) {
+ .sidebar-add {
+ margin: 60px 0 0;
+}
+}
+
+
+ /* --------------------------------------------
+		 (iPad -Portrait)
+-------------------------------------------- */
+@media (min-width: 768px) and (max-width: 979px) {
+}
+
+ /* --------------------------------------------
+	 ( mobile phone )
+-------------------------------------------- */
+
+@media (max-width: 767px) {
+ .time-count span {
+ font-size: 90px;
+}
+ .time-schedule label, .start-btn {
+ font-size: 14px;
+}
+ .time-schedule span, .time-schedule span input[type="number"] {
+ font-size: 20px;
+}
+ .time-schedule ul li {
+padding:0 6px;
+}
+ .start-btn a, .start-btn input[type="button"] {
+ font-size: 14px;
+ letter-spacing: 3px;
+ padding: 23px 5px;
+ width:100px;
+}
+ .shop-btn {
+ font-size: 16px;
+ height: 50px;
+ line-height: 50px;
+}
+ .time-count {
+ margin-bottom: 20px;
+}
+}
+
+/*-------------------------------------------- */
+
+
+     /* --------------------------------------------
+320 (mobile)
+-------------------------------------------- */
+
+ @media (max-width: 320px) {
+}
